@@ -5,40 +5,40 @@ import './Cards.css'
 function Cards() {
   return(
     <div className="cards">
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Check out what we do!</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
               src="images/img-9.jpg"
-              text="Explore the hidden waterfall deep inside the Amazon Jungle"
-              label="Adventure"
+              text="Architecture that will surprise you"
+              label="Technology"
               path="/services"
             />
             <CardItem
               src="images/img-2.jpg"
-              text="Travel through the island of Bali in a Private cruise"
-              label="Luxury"
+              text="State of the art Engeineering"
+              label="Technology"
               path="/services"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
               src="images/img-3.jpg"
-              text="Set Sail in the Atlantic Ocean visiting Uncharted waters"
-              label="Mystery"
+              text="Designs for the future"
+              label="Style"
               path="/services"
             />
             <CardItem
               src="images/img-4.jpg"
-              text="Experience Football on Top of the Himilayan Mountains"
-              label="Adventure"
+              text="Latest technology for maximum efficiency"
+              label="Technology"
               path="/services"
             />
             <CardItem
               src="images/img-8.jpg"
-              text="Ride through the Sahara Desert on a guided camel tour"
-              label="Adrenaline"
+              text="Support and Communication throughout the entire process"
+              label="Service"
               path="/services"
             />
           </ul>

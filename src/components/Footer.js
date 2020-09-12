@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Join the digital newsletter to receive our latest updates
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -64,8 +64,7 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              SinnigMedia
-              <i class='fas fa-anchor' />
+              <i class='fas fa-anchor'> SinnigMedia</i>
             </Link>
           </div>
           <small class='website-rights'>SinnigMedia © 2020</small>
