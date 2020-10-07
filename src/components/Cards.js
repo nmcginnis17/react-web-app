@@ -21,6 +21,12 @@ function Cards() {
               label="Digital Marketing"
               path="/"
             />
+            <CardItem
+              src="images/seo.jpg"
+              text="Get Found on Search Engines"
+              label="SEO"
+              path="/"
+            />
           </ul>
           <ul className="cards__items">
             <CardItem
@@ -35,9 +41,18 @@ function Cards() {
               label="Web Development"
               path="/"
             />
+            <CardItem
+              src="images/advertising.jpg"
+              text="Get Your advertisments in front of potential buyers"
+              label="Advertising"
+              path="/"
+            />
           </ul>
         </div>
       </div>
+      <a className="abtn" href="/">
+        <button className="learnBtn" type="button">Learn More</button>
+      </a>
     </div>
   );
 }
